@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Cartoon;
+    src: url(Cartoon\ Fun\ Italic.ttf);
+}
 body {
     background-image: url('https://i.pinimg.com/736x/ef/c2/00/efc200a463f2e7ab8b0fb774a7fd85ee.jpg');
     background-size: 3500, 500;
@@ -5,16 +9,47 @@ body {
 }
 
 .mainimg {
-    position: relative;
-    top: 100px;
-    right: -690px;
-
     height: 700px;
     width: 450px;
+    position: relative;
+    top: 100px;
+    right: -400px;
+
+   
 }
 
 .title {
     width: 15%;
-    position: center;
-
+    position: relative;
+    top: -600px;
+    right: -765px;
+}
+h1{
+    font-family: Cartoon;
+    font-size: 14px;
+    color: ghostwhite;
+}
+.para1 {
+    position: relative;
+    top: -600px;
+    right: -50px;
+}
+.wow {
+    height: 400px ;
+    width: 600px;
+    position: relative;
+    right: 720px;
+    
+}
+.para2 {
+    position: relative;
+    top: -700px;
+    right: -1200px;;
+}
+.space {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: -100px;
+    right: 120px;
 }
