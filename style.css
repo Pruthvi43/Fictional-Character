@@ -2,14 +2,23 @@
     font-family: Cartoon;
     src: url(Cartoon\ Fun\ Italic.ttf);
 }
+@font-face {
+    font-family: TitleCartoon;
+    src: url("CartooneryDemoRegular.ttf");
+}
+
+/* Fonts from the web */ 
+html {
+    scroll-behavior: smooth;
+  }
+                    /*Makes the animation when you click the nav bar */
+  
 body {
     background-image: url('https://i.pinimg.com/736x/ef/c2/00/efc200a463f2e7ab8b0fb774a7fd85ee.jpg');
     background-size: 3500, 500;
-            margin: 0;
-            padding: 0;
-            scroll-behavior: smooth;
+            zoom: 0.8;
 }
-
+                       /*My background and adjusting the zoom to look better */
 
 #navbar {
     background-color: goldenrod;
@@ -19,40 +28,36 @@ body {
     width: 100%;
     z-index: 1000;
 }
+                  /* Styling for the navbar and makes sure it does not get overlapped by content */
 #navbar ul {
     list-style-type: none;
     margin: 0.5%;
     padding: 0;
     display: flex;
 }
-#navbar li {
-    margin: 0;
-    padding: 0;
-}
+                /* Styles the Links in the Nav bar */
+
 
 #navbar a{
     display: block;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    font-size:large;
+    font-size:  25px;;
     color:azure;
     padding: 14px 20px;
     text-decoration: none;
 }
-
+  
+  /* Takes the full space of the block and the styling of the */
 #navbar a:hover {
     background-color:rgb(173, 95, 0) ;
-}
-
-#Character {
-
-    position: relative;
- top: 10%;
 }
 
 section {
     height: 100vh;
 }
 
+/* seperates each section */
 
 .mainimg {
     height: 700px;
@@ -64,35 +69,40 @@ section {
    
 }
 
-
+/* Bugs bunny images in the center of the Homepage */
+  
 .title {
     width: 15%;
     position: relative;
     top: -500px;
     right: -765px;
 }
-h1{
+/*Bugs bunny title */
+p{
     font-family: Cartoon;
     font-size: 14px;
     color: ghostwhite;
 }
+/* All paragraphs are styled */
 .para1 {
     position: relative;
     top: -600px;
     right: -50px;
 }
+/* position of the paragraph */
 .wow {
     height: 400px ;
     width: 600px;
     position: relative;
     right: 720px;
     
-}
+} /* Kings Bugs buny picture size and position */
 .para2 {
     position: relative;
     top: -700px;
     right: -1200px;;
 }
+/* paragraph 2*/
 .space {
     height: 300px;
     width: 500px;
@@ -100,3 +110,45 @@ h1{
     top: -100px;
     right: 120px;
 }
+/*space jam */
+
+.gif {
+        position: relative;
+        top: 0px;
+        right: -650px;
+       
+}
+/* bugs bunny gif */
+h1 {
+    font-family: TitleCartoon;
+    color: #FFFFFF;
+  position: relative;
+  right: -750px;
+    font-size: 50px;
+}
+/* Title of section 2*/
+
+  .catchPara {
+    font-size: 14px;
+    position: relative;
+     top: -400px;
+     right: -10px;
+  }
+  .originPara {
+    font-size:14px ;
+    position: relative;
+     top: -600px;
+     right: -1150px;
+  }  /* Paragrpahs of section 2 */
+   a {
+    color:#02ABCD;
+    font-size: 25px;
+    margin-right:10px ;
+    margin-left: 10px; 
+  }
+
+  a:hover {
+    color: #f0e68c;
+  }
+
+  /* links */
